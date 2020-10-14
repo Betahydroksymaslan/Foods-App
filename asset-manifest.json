@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.0b9d136e.chunk.css",
-    "main.js": "/Foods-App/static/js/main.850c7157.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.850c7157.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.01c5b784.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.01c5b784.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
     "static/js/2.7bf47c72.chunk.js": "/Foods-App/static/js/2.7bf47c72.chunk.js",
     "static/js/2.7bf47c72.chunk.js.map": "/Foods-App/static/js/2.7bf47c72.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.f1abad6ffbc884430f52c63bfffb67f8.js": "/Foods-App/precache-manifest.f1abad6ffbc884430f52c63bfffb67f8.js",
+    "precache-manifest.607516a9aae6a9cd0039b02e146512c4.js": "/Foods-App/precache-manifest.607516a9aae6a9cd0039b02e146512c4.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.0b9d136e.chunk.css.map": "/Foods-App/static/css/main.0b9d136e.chunk.css.map",
     "static/js/2.7bf47c72.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.7bf47c72.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c3d6b424.js",
     "static/js/2.7bf47c72.chunk.js",
     "static/css/main.0b9d136e.chunk.css",
-    "static/js/main.850c7157.chunk.js"
+    "static/js/main.01c5b784.chunk.js"
   ]
 }
