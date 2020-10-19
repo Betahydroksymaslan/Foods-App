@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.ed6fb7b2.chunk.css",
-    "main.js": "/Foods-App/static/js/main.9c40ad60.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.9c40ad60.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.e0209530.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.e0209530.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.6542ca95.chunk.js": "/Foods-App/static/js/2.6542ca95.chunk.js",
-    "static/js/2.6542ca95.chunk.js.map": "/Foods-App/static/js/2.6542ca95.chunk.js.map",
+    "static/js/2.c99417fe.chunk.js": "/Foods-App/static/js/2.c99417fe.chunk.js",
+    "static/js/2.c99417fe.chunk.js.map": "/Foods-App/static/js/2.c99417fe.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.408c21f7b98f7694bd4635e0cc6efadf.js": "/Foods-App/precache-manifest.408c21f7b98f7694bd4635e0cc6efadf.js",
+    "precache-manifest.7c217860533c796df711e6685d3f739b.js": "/Foods-App/precache-manifest.7c217860533c796df711e6685d3f739b.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.ed6fb7b2.chunk.css.map": "/Foods-App/static/css/main.ed6fb7b2.chunk.css.map",
-    "static/js/2.6542ca95.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.6542ca95.chunk.js.LICENSE.txt"
+    "static/js/2.c99417fe.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.c99417fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.6542ca95.chunk.js",
+    "static/js/2.c99417fe.chunk.js",
     "static/css/main.ed6fb7b2.chunk.css",
-    "static/js/main.9c40ad60.chunk.js"
+    "static/js/main.e0209530.chunk.js"
   ]
 }
