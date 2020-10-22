@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47dc088e13beb0d6584e1103c91f6691",
+    "revision": "53a90baa01ea120a5114b86a58791547",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "d7c81c49a62faac141dd",
-    "url": "/Foods-App/static/css/main.fd63ed0d.chunk.css"
+    "revision": "bd3fb7c1afe3d7399411",
+    "url": "/Foods-App/static/css/main.bc7dac46.chunk.css"
   },
   {
     "revision": "25261fa1ab46bbcc446a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/js/2.a0a295cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7c81c49a62faac141dd",
-    "url": "/Foods-App/static/js/main.f4160267.chunk.js"
+    "revision": "bd3fb7c1afe3d7399411",
+    "url": "/Foods-App/static/js/main.b3ed7eef.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "792d30e1aeeb55a443db9a30dac9c505",
     "url": "/Foods-App/static/media/foodBag.792d30e1.svg"
+  },
+  {
+    "revision": "23953cc13b6841a47b141a2fc64edc17",
+    "url": "/Foods-App/static/media/gymIcon.23953cc1.svg"
   },
   {
     "revision": "dfc0e4d857cbab9d53cdfb558dd29e1c",
