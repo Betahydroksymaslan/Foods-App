@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/Foods-App/static/css/main.bc7dac46.chunk.css",
-    "main.js": "/Foods-App/static/js/main.b8e50a61.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.b8e50a61.chunk.js.map",
+    "main.css": "/Foods-App/static/css/main.ea134437.chunk.css",
+    "main.js": "/Foods-App/static/js/main.ef2d35f0.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.ef2d35f0.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.213a2d53.chunk.js": "/Foods-App/static/js/2.213a2d53.chunk.js",
-    "static/js/2.213a2d53.chunk.js.map": "/Foods-App/static/js/2.213a2d53.chunk.js.map",
+    "static/js/2.a0a295cc.chunk.js": "/Foods-App/static/js/2.a0a295cc.chunk.js",
+    "static/js/2.a0a295cc.chunk.js.map": "/Foods-App/static/js/2.a0a295cc.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.0ec57d4eaa05e1e74881980ef8abc0d5.js": "/Foods-App/precache-manifest.0ec57d4eaa05e1e74881980ef8abc0d5.js",
+    "precache-manifest.7f8a90b0aad0a4bab3b9dc5c2131ea26.js": "/Foods-App/precache-manifest.7f8a90b0aad0a4bab3b9dc5c2131ea26.js",
     "service-worker.js": "/Foods-App/service-worker.js",
-    "static/css/main.bc7dac46.chunk.css.map": "/Foods-App/static/css/main.bc7dac46.chunk.css.map",
-    "static/js/2.213a2d53.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.213a2d53.chunk.js.LICENSE.txt",
+    "static/css/main.ea134437.chunk.css.map": "/Foods-App/static/css/main.ea134437.chunk.css.map",
+    "static/js/2.a0a295cc.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.a0a295cc.chunk.js.LICENSE.txt",
+    "static/media/favouriteHeart.8c2f58fa.svg": "/Foods-App/static/media/favouriteHeart.8c2f58fa.svg",
     "static/media/foodBag.792d30e1.svg": "/Foods-App/static/media/foodBag.792d30e1.svg",
-    "static/media/gymIcon.png": "/Foods-App/static/media/gymIcon.8f5ef093.png",
+    "static/media/gymIcon.e93e8c95.svg": "/Foods-App/static/media/gymIcon.e93e8c95.svg",
     "static/media/userImage.dfc0e4d8.svg": "/Foods-App/static/media/userImage.dfc0e4d8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.213a2d53.chunk.js",
-    "static/css/main.bc7dac46.chunk.css",
-    "static/js/main.b8e50a61.chunk.js"
+    "static/js/2.a0a295cc.chunk.js",
+    "static/css/main.ea134437.chunk.css",
+    "static/js/main.ef2d35f0.chunk.js"
   ]
 }
