@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "foodlogo.svg",
-      "type": "image/svg",
+      "src": "foodIcon192.png",
+      "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "foodlogo.svg",
-      "type": "image/svg",
+      "src": "foodIcon512.png",
+      "type": "image/png",
       "sizes": "256x256"
     }
   ],
