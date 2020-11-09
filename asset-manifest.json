@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Foods-App/static/css/main.d826f10a.chunk.css",
-    "main.js": "/Foods-App/static/js/main.706d36ae.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.706d36ae.chunk.js.map",
+    "main.css": "/Foods-App/static/css/main.41ced932.chunk.css",
+    "main.js": "/Foods-App/static/js/main.f9744457.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.f9744457.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.3a6cef6c.chunk.js": "/Foods-App/static/js/2.3a6cef6c.chunk.js",
-    "static/js/2.3a6cef6c.chunk.js.map": "/Foods-App/static/js/2.3a6cef6c.chunk.js.map",
+    "static/js/2.b5c09dec.chunk.js": "/Foods-App/static/js/2.b5c09dec.chunk.js",
+    "static/js/2.b5c09dec.chunk.js.map": "/Foods-App/static/js/2.b5c09dec.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.edc202e83ee4a5c1e66e6a2f00425d4a.js": "/Foods-App/precache-manifest.edc202e83ee4a5c1e66e6a2f00425d4a.js",
+    "precache-manifest.bf5b10b5c682346471b6338d06db11c8.js": "/Foods-App/precache-manifest.bf5b10b5c682346471b6338d06db11c8.js",
     "service-worker.js": "/Foods-App/service-worker.js",
-    "static/css/main.d826f10a.chunk.css.map": "/Foods-App/static/css/main.d826f10a.chunk.css.map",
-    "static/js/2.3a6cef6c.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.3a6cef6c.chunk.js.LICENSE.txt",
+    "static/css/main.41ced932.chunk.css.map": "/Foods-App/static/css/main.41ced932.chunk.css.map",
+    "static/js/2.b5c09dec.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.b5c09dec.chunk.js.LICENSE.txt",
     "static/media/breakfastImage.jpg": "/Foods-App/static/media/breakfastImage.95981ce4.jpg",
     "static/media/dinnerImage.jpg": "/Foods-App/static/media/dinnerImage.f6701b86.jpg",
-    "static/media/favourite.d88e898b.svg": "/Foods-App/static/media/favourite.d88e898b.svg",
+    "static/media/favourite.4979bcfb.svg": "/Foods-App/static/media/favourite.4979bcfb.svg",
     "static/media/favouriteHeart.e046c3d4.svg": "/Foods-App/static/media/favouriteHeart.e046c3d4.svg",
     "static/media/foodBag.9af74249.svg": "/Foods-App/static/media/foodBag.9af74249.svg",
     "static/media/foodIcon.09939f97.svg": "/Foods-App/static/media/foodIcon.09939f97.svg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.3a6cef6c.chunk.js",
-    "static/css/main.d826f10a.chunk.css",
-    "static/js/main.706d36ae.chunk.js"
+    "static/js/2.b5c09dec.chunk.js",
+    "static/css/main.41ced932.chunk.css",
+    "static/js/main.f9744457.chunk.js"
   ]
 }
