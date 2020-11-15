@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13f2816717d87be9927b979e8d3c522e",
+    "revision": "9513a1f0353da23efb3bc6fbfe27e11d",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "fa1a772bf29ff12e9a34",
-    "url": "/Foods-App/static/css/main.e66a8a40.chunk.css"
+    "revision": "e48bd5deb883089eb850",
+    "url": "/Foods-App/static/css/main.03271493.chunk.css"
   },
   {
-    "revision": "4acda1d22561e6e6f3e8",
-    "url": "/Foods-App/static/js/2.c2d070f0.chunk.js"
+    "revision": "216869d79514d0c35bf0",
+    "url": "/Foods-App/static/js/2.45c15077.chunk.js"
   },
   {
     "revision": "5fb6cfa21f11135c5373554be886ccf0",
-    "url": "/Foods-App/static/js/2.c2d070f0.chunk.js.LICENSE.txt"
+    "url": "/Foods-App/static/js/2.45c15077.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa1a772bf29ff12e9a34",
-    "url": "/Foods-App/static/js/main.783e4dc3.chunk.js"
+    "revision": "e48bd5deb883089eb850",
+    "url": "/Foods-App/static/js/main.5d8e7391.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/breakfastImage.95981ce4.jpg"
   },
   {
+    "revision": "45d858fb8fb49d2132c783309bf498ff",
+    "url": "/Foods-App/static/media/carbsIcon.45d858fb.svg"
+  },
+  {
     "revision": "f6701b8612ed03eff502c08fe1761419",
     "url": "/Foods-App/static/media/dinnerImage.f6701b86.jpg"
+  },
+  {
+    "revision": "cc2786115b494de639ab4d39acc7f97a",
+    "url": "/Foods-App/static/media/fatIcon.cc278611.svg"
   },
   {
     "revision": "4979bcfbbeeb63b7e80cc9bbaee80efd",
@@ -62,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d45bf1927d2b0ec348d4cfd014110b01",
     "url": "/Foods-App/static/media/krewetki.d45bf192.jpg"
+  },
+  {
+    "revision": "9de1fcf56ae55caf6f296f3adcefa43f",
+    "url": "/Foods-App/static/media/proteinIcon.9de1fcf5.svg"
   },
   {
     "revision": "3717b4881342d727679c83acf21d07ff",
