@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4962eb46fba2471b3334a851532dddc7",
+    "revision": "7549c9d8aedeb8763fa552d3ff21dc27",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "3526ec8e5b7b88419844",
-    "url": "/Foods-App/static/css/main.03271493.chunk.css"
+    "revision": "bafe762a1091264d6c8e",
+    "url": "/Foods-App/static/css/main.0e60cd95.chunk.css"
   },
   {
-    "revision": "1e22165ead0ac8233d25",
-    "url": "/Foods-App/static/js/2.a7124514.chunk.js"
+    "revision": "fb00caea9aeb2b45822e",
+    "url": "/Foods-App/static/js/2.e00f883c.chunk.js"
   },
   {
     "revision": "5fb6cfa21f11135c5373554be886ccf0",
-    "url": "/Foods-App/static/js/2.a7124514.chunk.js.LICENSE.txt"
+    "url": "/Foods-App/static/js/2.e00f883c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3526ec8e5b7b88419844",
-    "url": "/Foods-App/static/js/main.cb275631.chunk.js"
+    "revision": "bafe762a1091264d6c8e",
+    "url": "/Foods-App/static/js/main.a72f3841.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/foodPlan.bfcca96c.svg"
   },
   {
+    "revision": "c659ce78740522ddc8ffa9b505bc1744",
+    "url": "/Foods-App/static/media/foodPlate.c659ce78.png"
+  },
+  {
     "revision": "e93e8c95773649f76c120f272ff2cc80",
     "url": "/Foods-App/static/media/gymIcon.e93e8c95.svg"
   },
@@ -68,12 +72,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/home.3b2dc935.svg"
   },
   {
+    "revision": "6b9e2c5bb2f3b43871470b01d91c17f3",
+    "url": "/Foods-App/static/media/jajecznica.6b9e2c5b.jpg"
+  },
+  {
+    "revision": "58b463f2dd9c233a1fbcc2dfe73683ee",
+    "url": "/Foods-App/static/media/kanapka.58b463f2.jpg"
+  },
+  {
     "revision": "d45bf1927d2b0ec348d4cfd014110b01",
     "url": "/Foods-App/static/media/krewetki.d45bf192.jpg"
   },
   {
+    "revision": "e5e1a86fa41db582245abfe1af5ff877",
+    "url": "/Foods-App/static/media/phadThai.e5e1a86f.jpg"
+  },
+  {
     "revision": "bf95e654bf9b5b502164f1671c5266c7",
     "url": "/Foods-App/static/media/proteinIcon.bf95e654.svg"
+  },
+  {
+    "revision": "ecd32909ba586dfd7d69d876013ad295",
+    "url": "/Foods-App/static/media/risotto.ecd32909.jpg"
   },
   {
     "revision": "3717b4881342d727679c83acf21d07ff",
