@@ -1,0 +1,61 @@
+.Nav {
+  position: fixed;
+  bottom: 3%;
+  left: 5%;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.253);
+  font-size: 2rem;
+  color: rgb(90, 90, 87);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  &__box-expand {
+    width: 90%;
+  }
+  &__list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--expand {
+      justify-content: space-evenly;
+    }
+  }
+  &__menu-icons {
+    display: none;
+    color: rgb(90, 90, 87);
+    transition: color 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    &--expand {
+      display: flex;
+    }
+  }
+  &__food-icon,
+  &__home-icon,
+  &__user-icon {
+    width: 35px;
+    &--foodPlan {
+      width: 27px;
+    }
+    &--home {
+      width: 38px;
+    }
+    &--food {
+      width: 38px;
+    }
+  }
+  &__expand {
+    transition: transform 0.3s ease;
+    &--rotate {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+.active {
+  color: rgb(255, 255, 255);
+}

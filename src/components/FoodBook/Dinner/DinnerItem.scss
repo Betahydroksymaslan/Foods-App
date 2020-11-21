@@ -1,0 +1,87 @@
+.DinnerItem {
+    width: 90vw;
+    height: 60vh;
+    color: white;
+    margin-bottom: 5vh;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.25);
+    overflow: hidden;
+    &__image {
+        width: 100%;
+    }
+    &__favourite {
+        width: 55px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    &__name {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.315);
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(4px);
+    }
+
+    &__macro-box {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        width: 40%;
+        height: 25%;
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 5fr;
+        padding: 5px 0 5px 3%;
+        border-radius: 5px;
+        backdrop-filter: blur(3px);
+        font-weight: bold;
+        box-shadow: 0 3px 9px 0 rgba(0,0,0,.25);
+        background-color: rgba(0, 0, 0, 0.315);
+    }
+    &__kcalValue {
+        grid-column: 1/-1;
+        text-align: center;
+        align-self: center;
+    }
+    &__proteinLabel {
+        align-self: center;
+    }
+    &__proteinBar {
+        height: 35%;
+        background: linear-gradient(90deg, rgba(255,144,144,1) 0%, rgba(255,41,41,1) 100%);
+        align-self: center;
+        border-radius: 30px;
+        margin-left: 5px;
+    }
+    &__carbsLabel {
+        align-self: center;
+    }
+    &__carbsBar {
+        height: 35%;
+        background: linear-gradient(90deg,rgba(185,244,185,1) 0%,  rgba(76,201,74,1) 100%);
+        align-self: center;
+        border-radius: 30px;
+        margin-left: 5px;
+    }
+    &__fatLabel {
+        align-self: center;
+        width: 100%;
+        height: 100%;
+    }
+    &__fatBar {
+        height: 35%;
+        background: linear-gradient(90deg, rgba(254,246,165,1) 0%,  rgba(238,219,30,1) 100%);
+        align-self: center;
+        border-radius: 30px;
+        margin-left: 5px;
+    }
+}
+

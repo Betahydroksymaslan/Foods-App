@@ -1,0 +1,209 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  color: rgb(201, 179, 179);
+  background-color: white;
+  &__login-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  &__login-span {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-left: 14%;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -35px;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 25px;
+      background-color: $main-color;
+      display: inline-block;
+      border-radius: 50%;
+      box-shadow: 4px 0 20px -5px rgba(0,0,0,0.75)
+    }
+  }
+  &__boubles {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $main-color;
+    &--one {
+      position: absolute;
+      right: 60px;
+      box-shadow: -8px 0 20px -12px rgba(0,0,0,0.75);
+    }
+    &--two {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      right: -45px;
+      box-shadow: -5px 3px 20px -12px rgba(0,0,0,0.75);
+      display: flex;
+      flex-grow: 1;
+    }
+    &--three {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      left: -45px;
+      box-shadow: 5px -3px 20px -12px rgba(0,0,0,0.75);
+    }
+    &--four {
+      position: absolute;
+      left: 60px;
+      box-shadow: 8px 0 20px -12px rgba(0,0,0,0.75);
+    }
+  }
+  &__return {
+    font-size: 2.5rem;
+      color: black;
+      transform: rotate(45deg);
+      width: 40px;
+      height: 40px;
+  }
+  &__signUp-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+  }
+  &__signUp-span {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-right: 14%;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -35px;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 25px;
+        background-color: $main-color;
+        display: inline-block;
+        border-radius: 50%;
+        box-shadow: -4px 0 20px -5px rgba(0,0,0,0.75);
+    }
+  }
+  &__form-wrapper {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &__inputs-box {
+    width: 92%;
+    height: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  &__username-wrapper,
+  &__password-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+  }
+  &__username-icon,
+  &__password-icon {
+      width: 27px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 32px;
+  }
+  &__password-icon {
+      width: 20px;
+      left: 36px;
+  }
+  &__username,
+  &__password {
+    width: 80%;
+    padding: 5px 0 5px 45px;
+    border: none;
+    color: rgb(155, 148, 148);
+    border-bottom: 1px solid rgb(240, 159, 38);
+    font-size: 1.5rem;
+    outline: none;
+    &::placeholder {
+      color: rgb(216, 206, 206);
+    }
+  }
+  &__log-button-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+  }
+  &__button {
+    background-color: $main-color;
+    width: 80%;
+    border: none;
+    color: white;
+    height: 13%;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    transition: .2s;
+    &:active {
+      opacity: .7;
+    }
+    &--google {
+      background-color: white;
+      margin: 0 0 10px 0;
+      height: 12%;
+      border-radius: 40px;
+      font-size: 1rem;
+      padding: 0;
+      color: black;
+      box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+      justify-content: flex-start;
+    }
+    &--facebook {
+      background-color: #3b5998;
+      box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+      border-radius: 40px;
+      height: 12%;
+      font-size: 1rem;
+      padding: 0;
+      justify-content: flex-start;
+    }
+    &--fb-icon {
+      width: 20px;
+      margin: 0 10% 0 20px;
+    }
+    &--google-icon {
+      width: 25px;
+      margin: 0 8% 0 20px;
+    }
+  }
+  &__errorMessage {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(212, 64, 64);
+  }
+}
