@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.a7fceeab.chunk.css",
-    "main.js": "/Foods-App/static/js/main.a3d2a777.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.a3d2a777.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.ddbc6393.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.ddbc6393.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.796aa370.chunk.js": "/Foods-App/static/js/2.796aa370.chunk.js",
-    "static/js/2.796aa370.chunk.js.map": "/Foods-App/static/js/2.796aa370.chunk.js.map",
+    "static/js/2.14a47b6c.chunk.js": "/Foods-App/static/js/2.14a47b6c.chunk.js",
+    "static/js/2.14a47b6c.chunk.js.map": "/Foods-App/static/js/2.14a47b6c.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.07fd5e198a57faeb07f5f2cb989b0fd6.js": "/Foods-App/precache-manifest.07fd5e198a57faeb07f5f2cb989b0fd6.js",
+    "precache-manifest.16a2b4c98d4ea5fb40e75f99197c0ebe.js": "/Foods-App/precache-manifest.16a2b4c98d4ea5fb40e75f99197c0ebe.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.a7fceeab.chunk.css.map": "/Foods-App/static/css/main.a7fceeab.chunk.css.map",
-    "static/js/2.796aa370.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.796aa370.chunk.js.LICENSE.txt",
+    "static/js/2.14a47b6c.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.14a47b6c.chunk.js.LICENSE.txt",
     "static/media/breakfastImage.jpg": "/Foods-App/static/media/breakfastImage.95981ce4.jpg",
     "static/media/carbsIcon.svg": "/Foods-App/static/media/carbsIcon.45d858fb.svg",
     "static/media/dinnerImage.jpg": "/Foods-App/static/media/dinnerImage.f6701b86.jpg",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.796aa370.chunk.js",
+    "static/js/2.14a47b6c.chunk.js",
     "static/css/main.a7fceeab.chunk.css",
-    "static/js/main.a3d2a777.chunk.js"
+    "static/js/main.ddbc6393.chunk.js"
   ]
 }
