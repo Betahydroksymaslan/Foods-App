@@ -8,6 +8,7 @@ import FoodBook from "../FoodBook/FoodBook";
 import Training from '../Training/Training';
 import Dinner from '../FoodBook/Dinner/Dinner';
 import MealPage from '../MealPage/MealPage';
+import AddMeal from '../AddMeal/AddMeal';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/foodBook/dinner" component={Dinner} />
             <Route exact path="/foodBook/dinner/:name" component={MealPage} />
             <Route path='/training' component={Training} />
+            <Route path="/addMeal" component={AddMeal}/>
           </Switch>
         </section>
       </Store>

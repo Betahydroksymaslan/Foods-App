@@ -1,0 +1,108 @@
+.AddingPanel {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    &__header {
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+        align-items: center;
+    }
+    &__selectTypeOfMeal {
+        margin: 10px 0;
+    }
+    &__proteinLabel,
+    &__carbsLabel,
+    &__fatLabel,
+    &__ingredientsQuantityLabel,
+    &__recipeLabel {
+        margin: 10px 0;
+    }
+    &__proteinInput,
+    &__carbsInput,
+    &__fatInput,
+    &__ingredientsNameInput,
+    &__ingredientsQuantityInput,
+    &__recipeNameInput,
+    &__recipeTextInput,
+    &__photoOnMealBoxName,
+    &__photoPlateName {
+        width: 60px;
+        margin: 0 10px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.37);
+        border: 1px solid white;
+        border-radius: 8px;
+        color: rgb(80, 80, 80);
+    }
+    &__ingredientsHeader,
+    &__recipeHeader {
+        text-align: center;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+    &__ingredientsNameInput,
+    &__recipeNameInput {
+        width: 100%;
+        text-align: center;
+        &::placeholder {
+            color: white;
+            text-align: center;
+        }
+    }
+    &__ingredientsItemBox,
+    &__recipeItemBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+        padding: 20px 20px 10px;
+        border: 1px solid white;
+        border-radius: 15px;  
+        margin-bottom: 20px;
+    }
+    &__addAnotherIngredientsItemBox,
+    &__addAnotherRecipeItemBox {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 50%;
+        font-size: 2rem;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 2px;
+            bottom: -20px;
+            background-color: #fff;
+        }
+    }
+    &__recipeTextInput {
+        width: 100%;
+        margin: 20px 0 10px;
+        height: 140px;
+    }
+    &__photoOnMealBoxLabel,
+    &__photoPlateLabel {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__photoOnMealBoxName,
+    &__photoPlateName {
+        width: 150px;
+        &::placeholder {
+            color: white;
+        }
+    }
+}

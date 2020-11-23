@@ -18,6 +18,7 @@ const User = () => {
   let gymWrapper = useRef(null);
   let favouriteWrapper = useRef(null);
   let logButton = useRef(null);
+  let addMeal = useRef(null);
 
   useEffect(() => {
     let unsubscribe;
@@ -39,7 +40,7 @@ const User = () => {
     const cloudLeft = elements.querySelector(".cls-1__clouds--cloudTwo");
    
 
-    gsap.set([...circles, ...stars, cloudRight, cloudLeft, gymWrapper, favouriteWrapper, logButton], { autoAlpha: 0 });
+    gsap.set([...circles, ...stars, cloudRight, cloudLeft, gymWrapper, favouriteWrapper, addMeal, logButton], { autoAlpha: 0 });
 
     const tl = gsap.timeline({ defaults: { ease: "power3.inOut" } });
 
@@ -57,7 +58,8 @@ const User = () => {
       .to(circles, { duration: 2, autoAlpha: 1, stagger: 0.2 }, "-=3")
       .fromTo(gymWrapper, {x: "+=60"}, {duration: 0.5, x: "-=60", autoAlpha: 1}, "-=4")
       .fromTo(favouriteWrapper, {x: "+=60"}, {duration: 0.5, x: "-=60", autoAlpha: 1}, "-=3.8")
-      .fromTo(logButton, {x: "+=60"}, {duration: 0.5, x: "-=60", autoAlpha: 1}, "-=3.6")
+      .fromTo(addMeal, {x: "+=60"}, {duration: 0.5, x: "-=60", autoAlpha: 1}, "-=3.6")
+      .fromTo(logButton, {x: "+=60"}, {duration: 0.5, x: "-=60", autoAlpha: 1}, "-=3.4")
     authListener();
     return unsubscribe();
   }, []);
@@ -86,6 +88,11 @@ const User = () => {
           <FavouriteIcon className='User__favourite-icon'/>
           <p className="User__training-text">Ulubione</p>
         </div>
+
+        <Link to="/addMeal" className="User__addMeal" ref={el => addMeal = el}>
+          <GymIcon className='User__gym-icon'/>
+          <p className="User__training-text">Dodaj posiłek</p>
+        </Link>
 
         <Link to="/login" onClick={logOut} ref={el => logButton = el} className="User__login-button">
           {currentUser ? "Wyloguj się" : "Zaloguj się"}

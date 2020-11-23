@@ -35,6 +35,13 @@
     &__favourite-icon {
         width: 40px;
     }
+    &__addMeal {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 60%;
+        color: white;
+    }
     &__login-button {
         width: 60%;
         margin-top: 50px;
