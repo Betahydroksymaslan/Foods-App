@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "696bc0e6d6ef7ecb2bd9962b431404b3",
+    "revision": "b118c48d9717d1e188ec98456c0fd8b0",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "55d91615ae2ed126593d",
-    "url": "/Foods-App/static/css/main.a7fceeab.chunk.css"
+    "revision": "3f24365676279d0a7c82",
+    "url": "/Foods-App/static/css/main.72588960.chunk.css"
   },
   {
-    "revision": "623485f745be49f68a47",
-    "url": "/Foods-App/static/js/2.14a47b6c.chunk.js"
+    "revision": "d7d94712549fda8e6dda",
+    "url": "/Foods-App/static/js/2.3b0dcd66.chunk.js"
   },
   {
     "revision": "5fb6cfa21f11135c5373554be886ccf0",
-    "url": "/Foods-App/static/js/2.14a47b6c.chunk.js.LICENSE.txt"
+    "url": "/Foods-App/static/js/2.3b0dcd66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55d91615ae2ed126593d",
-    "url": "/Foods-App/static/js/main.ddbc6393.chunk.js"
+    "revision": "3f24365676279d0a7c82",
+    "url": "/Foods-App/static/js/main.7a9448ec.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
     "url": "/Foods-App/static/js/runtime-main.c3d6b424.js"
+  },
+  {
+    "revision": "817270c7b773451bc5aa04a46bd29aae",
+    "url": "/Foods-App/static/media/backArrow.817270c7.svg"
   },
   {
     "revision": "95981ce4c0ae8efb39df84e438aca638",
@@ -52,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/foodBag.9af74249.svg"
   },
   {
-    "revision": "09939f971ca2abc02438e10e673cca4b",
-    "url": "/Foods-App/static/media/foodIcon.09939f97.svg"
+    "revision": "06e5d9b6b5851757918a85a9b8c8d841",
+    "url": "/Foods-App/static/media/foodIcon.06e5d9b6.svg"
   },
   {
-    "revision": "bfcca96cd4ba027028a441c8d793cd47",
-    "url": "/Foods-App/static/media/foodPlan.bfcca96c.svg"
+    "revision": "455b4a5cc6dddf1a0179000ada86979f",
+    "url": "/Foods-App/static/media/foodPlan.455b4a5c.svg"
   },
   {
     "revision": "c659ce78740522ddc8ffa9b505bc1744",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/gymIcon.e93e8c95.svg"
   },
   {
-    "revision": "3b2dc93513c5d4f94a47c06ca2ac2d69",
-    "url": "/Foods-App/static/media/home.3b2dc935.svg"
+    "revision": "99a69a1798813f74be2327cc2d7421ef",
+    "url": "/Foods-App/static/media/home.99a69a17.svg"
   },
   {
     "revision": "6b9e2c5bb2f3b43871470b01d91c17f3",
@@ -104,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/supperImage.a27c52b2.jpg"
   },
   {
-    "revision": "11e3d0e7ffedaeeb8edb8fefefb01f40",
-    "url": "/Foods-App/static/media/userIcon.11e3d0e7.svg"
+    "revision": "72cd1d29a90a1cdda2aead24c7e03e78",
+    "url": "/Foods-App/static/media/userIcon.72cd1d29.svg"
   },
   {
     "revision": "dfc0e4d857cbab9d53cdfb558dd29e1c",
