@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.42fd76ee.chunk.css",
-    "main.js": "/Foods-App/static/js/main.448d948c.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.448d948c.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.f08f086e.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.f08f086e.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.85db81cb.chunk.js": "/Foods-App/static/js/2.85db81cb.chunk.js",
-    "static/js/2.85db81cb.chunk.js.map": "/Foods-App/static/js/2.85db81cb.chunk.js.map",
+    "static/js/2.c42ebb4c.chunk.js": "/Foods-App/static/js/2.c42ebb4c.chunk.js",
+    "static/js/2.c42ebb4c.chunk.js.map": "/Foods-App/static/js/2.c42ebb4c.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.103cb96aeaca3c330ff183a681ae1db6.js": "/Foods-App/precache-manifest.103cb96aeaca3c330ff183a681ae1db6.js",
+    "precache-manifest.ae8509eebad5015a39eeb7e1bfffecd5.js": "/Foods-App/precache-manifest.ae8509eebad5015a39eeb7e1bfffecd5.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.42fd76ee.chunk.css.map": "/Foods-App/static/css/main.42fd76ee.chunk.css.map",
-    "static/js/2.85db81cb.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.85db81cb.chunk.js.LICENSE.txt",
+    "static/js/2.c42ebb4c.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.c42ebb4c.chunk.js.LICENSE.txt",
     "static/media/breakfastImage.jpg": "/Foods-App/static/media/breakfastImage.95981ce4.jpg",
     "static/media/carbsIcon.svg": "/Foods-App/static/media/carbsIcon.45d858fb.svg",
     "static/media/dinnerImage.jpg": "/Foods-App/static/media/dinnerImage.f6701b86.jpg",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.85db81cb.chunk.js",
+    "static/js/2.c42ebb4c.chunk.js",
     "static/css/main.42fd76ee.chunk.css",
-    "static/js/main.448d948c.chunk.js"
+    "static/js/main.f08f086e.chunk.js"
   ]
 }
