@@ -17,7 +17,7 @@ const MacroBox = ({protein, fat, carbs}) => {
     );
   };
 
-  /* !!! End formula for calculating calories per 100 grams !!! */
+ 
 
   /* !!! Formula for calculating calories per one portion !!! */
 
@@ -25,13 +25,17 @@ const MacroBox = ({protein, fat, carbs}) => {
     return protein * 4 + carbs * 4 + fat * 9;
   };
 
-  /* !!! End formula for calculating calories per one portion !!! */
+  
 
   useEffect(() => {
+    console.log(fat, protein, carbs)
+    
     fatBar.style.width = `${recountMacro(fat, protein, carbs) * 1.3}%`;
     proteinBar.style.width = `${recountMacro(protein, fat, carbs) * 1.3}%`;
     carbsBar.style.width = `${recountMacro(carbs, fat, protein) * 1.3}%`;
-  });
+    
+    console.log(fat, protein, carbs)
+  }, []);
 
   return (
     <div className="MacroBox">
@@ -52,3 +56,5 @@ const MacroBox = ({protein, fat, carbs}) => {
 };
 
 export default MacroBox;
+
+

@@ -25,15 +25,15 @@ const Dinner = () => {
     };
     watch();
   }, []);
-
-  const mealList = meals.map((meal, index) => (
+console.log(meals)
+  const mealList = meals.map((meal) => (
     <DinnerItem
-      key={index}
+      key={meal.id}
       id={meal.id}
       fat={meal.fat}
       protein={meal.protein}
       carbs={meal.carbs}
-      calories={meal.calories}
+      
       src={meal.src}
     />
   ));

@@ -54,10 +54,12 @@ const MealPage = ({ match }) => {
         setRecipe(recipeData);
       });
     };
+    
     watch();
+    
   }, []);
 
-
+  console.log(ingredients, recipe)
   const items = meal.map((item) => (
     <div key={item.src} className="MealPage__macroBox">
       <div className="MealPage__macro">
@@ -91,16 +93,16 @@ const MealPage = ({ match }) => {
               <img src={ingredientIcon} alt="icon" className="MealPage__ingredientsIconImage"/>
           </div>
           <div className="MealPage__ingredientsValueBox">
-          <div className="MealPage__ingredientsName">{item.id}</div>
-          <div className="MealPage__ingredientsValue">{item.value}</div>
+          <div className="MealPage__ingredientsName">{item.ingredientName}</div>
+          <div className="MealPage__ingredientsValue">{item.ingredientQuantity}{item.ingredientUnit}</div>
           </div>
       </div>
   ))
   
   const prepareList = recipe.map(item => (
       <div key={item.id} className="MealPage__prepareItemBox">
-      <p className="MealPage__prepareItemHeader">{item.id}</p>
-      <li className="MealPage__prepareStep">{item.value}</li>
+      <p className="MealPage__prepareItemHeader">{item.recipeName}</p>
+      <li className="MealPage__prepareStep">{item.recipeText}</li>
       </div>
   ))
   

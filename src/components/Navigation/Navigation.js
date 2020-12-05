@@ -1,18 +1,16 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as UserIcon } from "../../assets/images/userIcon.svg";
 import { ReactComponent as HomeIcon } from "../../assets/images/home.svg";
 import { ReactComponent as FoodIcon } from "../../assets/images/foodIcon.svg";
 import { ReactComponent as FoodPlan } from "../../assets/images/foodPlan.svg";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { ReactComponent as BackArrow } from "../../assets/images/backArrow.svg";
+
+
 
 const Navigation = () => {
   const [isMenuExpand, setIsMenuExpand] = useState(true);
 
-  /* useEffect(() => {
-     
-  }, []); */
 
   const navExpand = isMenuExpand
     ? "Nav__expand Nav__expand--rotate"
@@ -33,31 +31,35 @@ const Navigation = () => {
           onClick={() => setIsMenuExpand(!isMenuExpand)}
           className={navExpand}
         >
-          <FontAwesomeIcon icon={faChevronRight} />
+          <BackArrow  className="Nav__backIcon" />
         </li>
 
         <li>
           <NavLink className={navIcons} exact to="/Foods-App">
-            <HomeIcon className="Nav__home-icon Nav__user-icon--home" />
+            <HomeIcon className="Nav__icons Nav__user-icon--home" />
+            <p className="Nav__icons-name">Home</p>
           </NavLink>
         </li>
 
         <li>
           <NavLink className={navIcons} to="/foodBook">
-            <FoodIcon className="Nav__food-icon Nav__user-icon--food" />
+            <FoodIcon className="Nav__icons  Nav__user-icon--food" />
+            <p className="Nav__icons-name">Przepisy</p>
           </NavLink>
         </li>
 
         <li>
           <NavLink className={navIcons} to="/training">
-            <FoodPlan className="Nav__user-icon Nav__user-icon--foodPlan" />
+            <FoodPlan className="Nav__icons  Nav__user-icon--foodPlan" />
+            <p className="Nav__icons-name">Plan</p>
           </NavLink>
         </li>
 
         <li>
           {
             <NavLink className={navIcons} to="/user">
-              <UserIcon className="Nav__user-icon" />
+              <UserIcon className="Nav__icons  Nav__user-icon--user" />
+              <p className="Nav__icons-name">User</p>
             </NavLink>
           }
         </li>

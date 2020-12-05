@@ -1,51 +1,146 @@
-import React, { useState } from "react";
+import React, { useState, useReducer } from "react";
+import * as firebase from "firebase/app";
+import "firebase/database";
+
+const initialState = {
+  nameOfMeal: "",
+  typeOfMeal: "breakfast",
+  protein: "",
+  carbs: "",
+  fat: "",
+  mainPhoto: "",
+  platePhoto: "",
+  ingredients: [
+    {
+      ingredientName: "",
+      ingredientQuantity: "",
+      ingredientUnit: "g",
+      ingredientId: 0,
+    },
+  ],
+  recipes: [{ recipeName: "Krok 1", recipeText: "", recipeId: 0 }],
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "INPUT_VALUE":
+      return {
+        ...state,
+        [action.name]: action.value,
+      };
+    case "ADD_INGREDIENT_BOX":
+      return {
+        ...state,
+        ingredients: [
+          ...state.ingredients,
+          {
+            ingredientName: "",
+            ingredientQuantity: "",
+            ingredientUnit: "g",
+            ingredientId: action.number,
+          },
+        ],
+      };
+    case "GET_INGREDIENT_BOX_VALUE":
+      const { ingredients } = state;
+      ingredients[action.index] = {
+        ...ingredients[action.index],
+        [action.name]: action.value,
+      };
+      return {
+        ...state,
+        ingredients: [...ingredients],
+      };
+    case "ADD_RECIPE_BOX":
+      return {
+        ...state,
+        recipes: [
+          ...state.recipes,
+          {
+            recipeName: `Krok ${action.id + 1}`,
+            recipeText: "",
+            recipeId: action.id,
+          },
+        ],
+      };
+    case "GET_RECIPE_BOX_VALUE":
+      const { recipes } = state;
+      recipes[action.id] = {
+        ...recipes[action.id],
+        [action.name]: action.value,
+      };
+      return {
+        ...state,
+        recipes: [...recipes],
+      };
+  }
+};
 
 const AddMeal = () => {
-  const [typeOfMeal, setTypeOfMeal] = useState("Śniadanie");
-    const [protein, setProtein] = useState('');
-    const [carbs, setCarbs] = useState('');
-    const [fat, setFat] = useState('');
-    const [ingredientsList, setIngredientsList] = useState([]);
-    const [mainPhoto, setMainPhoto] = useState('');
-    const [platePhoto, setPlatePhoto] = useState('')
+  const [number, setNumber] = useState(1);
+  const [stepNumber, setStepNumber] = useState(1);
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-  const [number, setNumber] = useState(2);
-  const [quantityIngredients, setQuantityIngredients] = useState([
-    { number: 1 },
-  ]);
-  const [stepNumber, setStepNumber] = useState(2);
-  const [quantityRecipes, setQuantityRecipes] = useState([{ number: 1 }]);
+  console.log(state);
 
   const handleAddingIngredientsBox = () => {
-    setQuantityIngredients((prevState) => [...prevState, { number: number }]);
     setNumber((prevState) => prevState + 1);
+    dispatch({ type: "ADD_INGREDIENT_BOX", number: number });
   };
 
   const handleAddingRecipeBox = () => {
-    setQuantityRecipes((prevState) => [...prevState, { number: stepNumber }]);
     setStepNumber((prevState) => prevState + 1);
+    dispatch({ type: "ADD_RECIPE_BOX", id: stepNumber });
   };
 
-  const ingredientsBoxes = quantityIngredients.map((box) => (
-    <div key={box.number} className="AddingPanel__ingredientsItemBox">
+  const ingredientsBoxes = state.ingredients.map((box) => (
+    <div key={box.ingredientId} className="AddingPanel__ingredientsItemBox">
       <input
+        required
+        name="ingredientName"
+        value={state.ingredients[box.ingredientId].ingredientName}
+        onChange={(e) =>
+          dispatch({
+            type: "GET_INGREDIENT_BOX_VALUE",
+            value: e.target.value,
+            index: box.ingredientId,
+            name: e.target.name,
+          })
+        }
         type="text"
         placeholder="Nazwa Składnika"
         className="AddingPanel__ingredientsNameInput"
       />
 
-      <label
-        htmlFor="quantity"
-        className="AddingPanel__ingredientsQuantityLabel"
-      >
+      <label className="AddingPanel__ingredientsQuantityLabel">
         Ilość:
         <input
+          required
+          name="ingredientQuantity"
+          value={state.ingredients[box.ingredientId].ingredientQiantity}
+          onChange={(e) =>
+            dispatch({
+              type: "GET_INGREDIENT_BOX_VALUE",
+              value: e.target.value,
+              index: box.ingredientId,
+              name: e.target.name,
+            })
+          }
           type="number"
           id="quantity"
           className="AddingPanel__ingredientsQuantityInput"
         />
         <select
-          name="weightSelect"
+          value={state.ingredients[box.ingredientId].ingredientUnit}
+          onChange={(e) =>
+            dispatch({
+              type: "GET_INGREDIENT_BOX_VALUE",
+              value: e.target.value,
+              index: box.ingredientId,
+              name: e.target.name,
+            })
+          }
+          name="ingredientUnit"
           id="weightSelect"
           className="AddingPanel__weightSelect"
         >
@@ -56,30 +151,78 @@ const AddMeal = () => {
     </div>
   ));
 
-  const recipeBoxes = quantityRecipes.map((box) => (
-    <div key={box.number} className="AddingPanel__recipeItemBox">
+  const recipeBoxes = state.recipes.map((box) => (
+    <div key={box.recipeId} className="AddingPanel__recipeItemBox">
       <input
         type="text"
-        value={`Krok ${box.number}`}
-        placeholder="Zmień nazwę kroku"
+        name="recipeName"
+        value={state.recipes[box.recipeId].recipeName}
+        onChange={(e) =>
+          dispatch({
+            type: "GET_RECIPE_BOX_VALUE",
+            name: e.target.name,
+            value: e.target.value,
+            id: box.recipeId,
+          })
+        }
+        placeholder="Zmień nazwę"
         className="AddingPanel__recipeNameInput"
       />
       <label htmlFor="recipe" className="AddingPanel__recipeLabel"></label>
-      Wpisz treść kroku {box.number}
-      <textarea id="recipe" className="AddingPanel__recipeTextInput" />
+      Wpisz treść
+      <textarea
+        required
+        id="recipe"
+        name="recipeText"
+        value={state.recipes[box.recipeId].recipeText}
+        onChange={(e) =>
+          dispatch({
+            type: "GET_RECIPE_BOX_VALUE",
+            name: e.target.name,
+            value: e.target.value,
+            id: box.recipeId,
+          })
+        }
+        className="AddingPanel__recipeTextInput"
+      />
     </div>
   ));
+
+  const handleChange = (e) =>
+    dispatch({
+      type: "INPUT_VALUE",
+      value: e.target.value,
+      name: e.target.name,
+    });
+
+  const SubmitForm = (e) => {
+    //e.preventDefault();
+    const {nameOfMeal , protein, fat, carbs, mainPhoto, platePhoto, ingredients, recipes} = state;
+    //const copyOfIngredients = [];
+    
+
+    firebase.database().ref('/meals/' + nameOfMeal).set({
+      protein: parseInt(protein),
+      carbs: parseInt(carbs),
+      fat: parseInt(fat),
+      src: mainPhoto,
+      platePhoto: platePhoto,
+      ingredients: ingredients,
+      recipe: recipes,
+    });
+  };
 
   return (
     <div className="AddingPanel">
       <h1 className="AddingPanel__header">Dodaj Posiłek</h1>
       <form className="AddingPanel__form">
+        <input type="text" name="nameOfMeal" value={state.nameOfMeal} onChange={handleChange} required className="AddingPanel__nameOfMeal" placeholder="Nazwa potrawy"/>
         <label htmlFor="typeOfMeal" className="AddingPanel__selectLabel">
           Gdzie dodać posiłek?
         </label>
         <select
-            value={typeOfMeal}
-            onChange={e => setTypeOfMeal(e.target.value)}
+          value={state.typeOfMeal}
+          onChange={handleChange}
           name="typeOfMeal"
           id="typeOfMeal"
           className="AddingPanel__selectTypeOfMeal"
@@ -93,8 +236,10 @@ const AddMeal = () => {
         <label htmlFor="protein" className="AddingPanel__proteinLabel">
           Białko :
           <input
-          value={protein}
-          onChange={e => setProtein(e.target.value)}
+            required
+            name="protein"
+            value={state.protein}
+            onChange={handleChange}
             type="number"
             id="protein"
             className="AddingPanel__proteinInput"
@@ -104,16 +249,30 @@ const AddMeal = () => {
 
         <label htmlFor="carbs" className="AddingPanel__carbsLabel">
           Węglowodany :
-          <input 
-          value={carbs} 
-          onChange={e => setCarbs(e.target.value)} type="number" id="carbs" className="AddingPanel__carbsInput" />
+          <input
+            required
+            name="carbs"
+            value={state.carbs}
+            onChange={handleChange}
+            type="number"
+            id="carbs"
+            className="AddingPanel__carbsInput"
+          />
           g
         </label>
 
         <label htmlFor="fat" className="AddingPanel__fatLabel">
           Tłuszcz :
-          <input 
-          value={fat} onChange={e => setFat(e.target.value)} type="number" id="fat" className="AddingPanel__fatInput" />g
+          <input
+            required
+            value={state.fat}
+            onChange={handleChange}
+            name="fat"
+            type="number"
+            id="fat"
+            className="AddingPanel__fatInput"
+          />
+          g
         </label>
 
         <h3 className="AddingPanel__ingredientsHeader">Składniki:</h3>
@@ -143,10 +302,12 @@ const AddMeal = () => {
           htmlFor="photoOnMealBox"
           className="AddingPanel__photoOnMealBoxLabel"
         >
-          ../../../assets/images/{typeOfMeal}/
+          ../../../assets/images/{state.typeOfMeal}/
           <input
-          value={mainPhoto}
-          onChange={e => setMainPhoto(e.target.value)}
+            required
+            value={state.mainPhoto}
+            onChange={handleChange}
+            name="mainPhoto"
             type="text"
             placeholder="zdjęcie główne"
             className="AddingPanel__photoOnMealBoxName"
@@ -158,16 +319,21 @@ const AddMeal = () => {
           htmlFor="photoOnMealBox"
           className="AddingPanel__photoPlateLabel"
         >
-          ../../assets/images/
+          ../../assets/images/{state.typeOfMeal}/
           <input
-          value={platePhoto}
-          onChange={e => setPlatePhoto(e.target.value)}
+            required
+            value={state.platePhoto}
+            onChange={handleChange}
+            name="platePhoto"
             type="text"
             placeholder="zdjęcie talerza"
             className="AddingPanel__photoPlateName"
           />
           .png
         </label>
+        <button className="AddingPanel__submitButton" onClick={SubmitForm}>
+          Dodaj
+        </button>
       </form>
     </div>
   );
