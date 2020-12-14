@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Foods-App/static/css/main.91913e5f.chunk.css",
-    "main.js": "/Foods-App/static/js/main.78a8d2ac.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.78a8d2ac.chunk.js.map",
+    "main.css": "/Foods-App/static/css/main.1faca7c2.chunk.css",
+    "main.js": "/Foods-App/static/js/main.fc8704cd.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.fc8704cd.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.a5899f56.chunk.js": "/Foods-App/static/js/2.a5899f56.chunk.js",
-    "static/js/2.a5899f56.chunk.js.map": "/Foods-App/static/js/2.a5899f56.chunk.js.map",
+    "static/js/2.0f8d93d9.chunk.js": "/Foods-App/static/js/2.0f8d93d9.chunk.js",
+    "static/js/2.0f8d93d9.chunk.js.map": "/Foods-App/static/js/2.0f8d93d9.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.03a9bd8d36ee07066e94372c9890f55f.js": "/Foods-App/precache-manifest.03a9bd8d36ee07066e94372c9890f55f.js",
+    "precache-manifest.d05d46d071b2e924bab42a758019abe5.js": "/Foods-App/precache-manifest.d05d46d071b2e924bab42a758019abe5.js",
     "service-worker.js": "/Foods-App/service-worker.js",
-    "static/css/main.91913e5f.chunk.css.map": "/Foods-App/static/css/main.91913e5f.chunk.css.map",
-    "static/js/2.a5899f56.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.a5899f56.chunk.js.LICENSE.txt",
+    "static/css/main.1faca7c2.chunk.css.map": "/Foods-App/static/css/main.1faca7c2.chunk.css.map",
+    "static/js/2.0f8d93d9.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.0f8d93d9.chunk.js.LICENSE.txt",
     "static/media/breakfastImage.jpg": "/Foods-App/static/media/breakfastImage.95981ce4.jpg",
+    "static/media/clockIcon.svg": "/Foods-App/static/media/clockIcon.d1a32158.svg",
     "static/media/dinnerImage.jpg": "/Foods-App/static/media/dinnerImage.f6701b86.jpg",
     "static/media/fatIcon.svg": "/Foods-App/static/media/fatIcon.b53b0ae7.svg",
     "static/media/favourite.4979bcfb.svg": "/Foods-App/static/media/favourite.4979bcfb.svg",
@@ -37,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.a5899f56.chunk.js",
-    "static/css/main.91913e5f.chunk.css",
-    "static/js/main.78a8d2ac.chunk.js"
+    "static/js/2.0f8d93d9.chunk.js",
+    "static/css/main.1faca7c2.chunk.css",
+    "static/js/main.fc8704cd.chunk.js"
   ]
 }
