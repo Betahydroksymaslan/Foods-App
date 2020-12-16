@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2ab39d76f1f1f82362ed2e8150af68b",
+    "revision": "eb55be43f412af474a9c78f538e12ccc",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "0f2b061de6a171e5c02a",
-    "url": "/Foods-App/static/css/main.8cc6f04c.chunk.css"
+    "revision": "ac79e1392b7609dc1178",
+    "url": "/Foods-App/static/css/main.8aa3208e.chunk.css"
   },
   {
-    "revision": "09978a6450975b36fff8",
-    "url": "/Foods-App/static/js/2.f569478e.chunk.js"
+    "revision": "e1244b44b685c54b0dad",
+    "url": "/Foods-App/static/js/2.5777e50c.chunk.js"
   },
   {
     "revision": "5fb6cfa21f11135c5373554be886ccf0",
-    "url": "/Foods-App/static/js/2.f569478e.chunk.js.LICENSE.txt"
+    "url": "/Foods-App/static/js/2.5777e50c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f2b061de6a171e5c02a",
-    "url": "/Foods-App/static/js/main.baf2a8c7.chunk.js"
+    "revision": "ac79e1392b7609dc1178",
+    "url": "/Foods-App/static/js/main.3803b25b.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
@@ -76,16 +76,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/cheeseIcon.72ffe272.svg"
   },
   {
-    "revision": "d1a32158cbe2212413d9e96ac8f0e949",
-    "url": "/Foods-App/static/media/clockIcon.d1a32158.svg"
+    "revision": "67e18ea65bb94daae23043329bef4a47",
+    "url": "/Foods-App/static/media/chocolateIcon.67e18ea6.svg"
+  },
+  {
+    "revision": "138531a55d4a3b367fc49ce6b4a422b7",
+    "url": "/Foods-App/static/media/clockIcon.138531a5.svg"
+  },
+  {
+    "revision": "eecdde67a44a948918e1bf3e1fdcdcbf",
+    "url": "/Foods-App/static/media/cookiesIcon.eecdde67.svg"
+  },
+  {
+    "revision": "7513dc3c4b2ef463301c3fb9b5f4e571",
+    "url": "/Foods-App/static/media/cornIcon.7513dc3c.svg"
   },
   {
     "revision": "6e566c0a8986d281efbef0c400bd64c6",
     "url": "/Foods-App/static/media/croassaintIcon.6e566c0a.svg"
   },
   {
+    "revision": "b3ebb17003fb8990565413ac6b762261",
+    "url": "/Foods-App/static/media/cucumberIcon.b3ebb170.svg"
+  },
+  {
     "revision": "adcc98314b5aaf07f18125393a7c7fa5",
     "url": "/Foods-App/static/media/dairyIcon.adcc9831.svg"
+  },
+  {
+    "revision": "3b891bf8b7b17088005df28af8c111be",
+    "url": "/Foods-App/static/media/difficultyIcon.3b891bf8.svg"
   },
   {
     "revision": "f6701b8612ed03eff502c08fe1761419",
@@ -106,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e046c3d48e24cf6fbfe307a5fe7c8fda",
     "url": "/Foods-App/static/media/favouriteHeart.e046c3d4.svg"
+  },
+  {
+    "revision": "bca1c8351cf8ce7e2817033e2ebe0b33",
+    "url": "/Foods-App/static/media/flourIcon.bca1c835.svg"
   },
   {
     "revision": "9af742498f9f8023fab1551f79182160",
@@ -152,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/hotSuaceIcon.4f51f1f5.svg"
   },
   {
+    "revision": "922dab84d510416f00631519e153f0c1",
+    "url": "/Foods-App/static/media/iceIcon.922dab84.svg"
+  },
+  {
     "revision": "19408b94f74061b3556b7ec2db152d10",
     "url": "/Foods-App/static/media/ingredientsPhoto.19408b94.jpg"
   },
@@ -176,12 +204,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/krewetki.d45bf192.jpg"
   },
   {
+    "revision": "b7e411766dfebcdbb2a009b3a5493c23",
+    "url": "/Foods-App/static/media/lemonIcon.b7e41176.svg"
+  },
+  {
     "revision": "64001c403bc6d9cbae418f17db411ea1",
     "url": "/Foods-App/static/media/mayonnaiseIcon.64001c40.svg"
   },
   {
     "revision": "afa362f6be69778c6899697c0e54baf7",
     "url": "/Foods-App/static/media/meatIcon.afa362f6.svg"
+  },
+  {
+    "revision": "7e369939bfe978819ef34392589cf553",
+    "url": "/Foods-App/static/media/mushroomIcon.7e369939.svg"
   },
   {
     "revision": "3314b5fded9be0165ae8093d8a16f5c1",
@@ -224,6 +260,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/proteinSupplementIcon.f3f0b4b8.svg"
   },
   {
+    "revision": "5dfaf9b432083f1d68c4cb0c1d27d1b0",
+    "url": "/Foods-App/static/media/pumpkinIcon.5dfaf9b4.svg"
+  },
+  {
     "revision": "92ce3c3cf580f89332b8b3874dbbbb26",
     "url": "/Foods-App/static/media/riceIcon.92ce3c3c.svg"
   },
@@ -252,8 +292,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/strawberryIcon.845e7372.svg"
   },
   {
+    "revision": "2569f87916c95ebd3a7565808812e333",
+    "url": "/Foods-App/static/media/sugarIcon.2569f879.svg"
+  },
+  {
     "revision": "a27c52b292bde764df0ee04b684ca3f2",
     "url": "/Foods-App/static/media/supperImage.a27c52b2.jpg"
+  },
+  {
+    "revision": "d1b3943fc28b226a2565d166ed9cdd61",
+    "url": "/Foods-App/static/media/teaCookiesIcon.d1b3943f.svg"
   },
   {
     "revision": "d8ea4bd705a07c78cb2802de003fd7ce",
@@ -270,5 +318,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c904e297d2dd5fc95b4a5f02619b7e1",
     "url": "/Foods-App/static/media/waterIcon.3c904e29.svg"
+  },
+  {
+    "revision": "54b7d2978ad9e096c2d00eeaf5206ad6",
+    "url": "/Foods-App/static/media/whiteCheeseIcon.54b7d297.svg"
   }
 ]);
