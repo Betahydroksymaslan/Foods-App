@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Foods-App/static/css/main.3e06b88a.chunk.css",
-    "main.js": "/Foods-App/static/js/main.8dd01aca.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.8dd01aca.chunk.js.map",
+    "main.css": "/Foods-App/static/css/main.56259e06.chunk.css",
+    "main.js": "/Foods-App/static/js/main.bfad7a07.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.bfad7a07.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
-    "static/js/2.5addec9c.chunk.js": "/Foods-App/static/js/2.5addec9c.chunk.js",
-    "static/js/2.5addec9c.chunk.js.map": "/Foods-App/static/js/2.5addec9c.chunk.js.map",
+    "static/js/2.8256e78f.chunk.js": "/Foods-App/static/js/2.8256e78f.chunk.js",
+    "static/js/2.8256e78f.chunk.js.map": "/Foods-App/static/js/2.8256e78f.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.26847ad47092a84fd065b8a54296b296.js": "/Foods-App/precache-manifest.26847ad47092a84fd065b8a54296b296.js",
+    "precache-manifest.d2d1639ded9641ad851a7e080b64d3fd.js": "/Foods-App/precache-manifest.d2d1639ded9641ad851a7e080b64d3fd.js",
     "service-worker.js": "/Foods-App/service-worker.js",
-    "static/css/main.3e06b88a.chunk.css.map": "/Foods-App/static/css/main.3e06b88a.chunk.css.map",
-    "static/js/2.5addec9c.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.5addec9c.chunk.js.LICENSE.txt",
+    "static/css/main.56259e06.chunk.css.map": "/Foods-App/static/css/main.56259e06.chunk.css.map",
+    "static/js/2.8256e78f.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.8256e78f.chunk.js.LICENSE.txt",
     "static/media/addingIcon.svg": "/Foods-App/static/media/addingIcon.8c2ca519.svg",
     "static/media/appleIcon.svg": "/Foods-App/static/media/appleIcon.aab131a4.svg",
     "static/media/avocadoIcon.svg": "/Foods-App/static/media/avocadoIcon.2366dfb1.svg",
@@ -91,8 +91,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c3d6b424.js",
-    "static/js/2.5addec9c.chunk.js",
-    "static/css/main.3e06b88a.chunk.css",
-    "static/js/main.8dd01aca.chunk.js"
+    "static/js/2.8256e78f.chunk.js",
+    "static/css/main.56259e06.chunk.css",
+    "static/js/main.bfad7a07.chunk.js"
   ]
 }
