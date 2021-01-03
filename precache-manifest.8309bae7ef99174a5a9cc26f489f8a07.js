@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77ddb3aaa91a22a560a8c132238bff58",
+    "revision": "bcfe06a401b370798fc525f85a9aeec6",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "b3ca254272cfccab3d7a",
+    "revision": "2576928d72db59b63c2a",
     "url": "/Foods-App/static/css/main.56259e06.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/js/2.8256e78f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3ca254272cfccab3d7a",
-    "url": "/Foods-App/static/js/main.bfad7a07.chunk.js"
+    "revision": "2576928d72db59b63c2a",
+    "url": "/Foods-App/static/js/main.6eca98cd.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
@@ -140,16 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/foodBag.9af74249.svg"
   },
   {
-    "revision": "06e5d9b6b5851757918a85a9b8c8d841",
-    "url": "/Foods-App/static/media/foodIcon.06e5d9b6.svg"
+    "revision": "7addea90fc75fb28e997e8dd072833f4",
+    "url": "/Foods-App/static/media/foodIcon.7addea90.svg"
   },
   {
     "revision": "ee15f4ad101215bbcb6ab67ee1df1b1b",
     "url": "/Foods-App/static/media/foodPhoto2.ee15f4ad.jpg"
   },
   {
-    "revision": "455b4a5cc6dddf1a0179000ada86979f",
-    "url": "/Foods-App/static/media/foodPlan.455b4a5c.svg"
+    "revision": "661542fe85d4119cac118da99aa9a8c5",
+    "url": "/Foods-App/static/media/foodPlan.661542fe.svg"
   },
   {
     "revision": "c659ce78740522ddc8ffa9b505bc1744",
@@ -168,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/hamIcon.5e9efcbb.svg"
   },
   {
-    "revision": "99a69a1798813f74be2327cc2d7421ef",
-    "url": "/Foods-App/static/media/home.99a69a17.svg"
+    "revision": "15971a28d640ac2c65f0d5ea57e0ca61",
+    "url": "/Foods-App/static/media/home.15971a28.svg"
   },
   {
     "revision": "da2695009d5a260c719f8daa0eb482ac",
@@ -312,8 +312,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foods-App/static/media/tomatoIcon.d8ea4bd7.svg"
   },
   {
-    "revision": "72cd1d29a90a1cdda2aead24c7e03e78",
-    "url": "/Foods-App/static/media/userIcon.72cd1d29.svg"
+    "revision": "5342fd558c489ac87d0b04662fac7151",
+    "url": "/Foods-App/static/media/userIcon.5342fd55.svg"
   },
   {
     "revision": "dfc0e4d857cbab9d53cdfb558dd29e1c",

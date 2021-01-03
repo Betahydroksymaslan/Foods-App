@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.56259e06.chunk.css",
-    "main.js": "/Foods-App/static/js/main.bfad7a07.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.bfad7a07.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.6eca98cd.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.6eca98cd.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
     "static/js/2.8256e78f.chunk.js": "/Foods-App/static/js/2.8256e78f.chunk.js",
     "static/js/2.8256e78f.chunk.js.map": "/Foods-App/static/js/2.8256e78f.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.d2d1639ded9641ad851a7e080b64d3fd.js": "/Foods-App/precache-manifest.d2d1639ded9641ad851a7e080b64d3fd.js",
+    "precache-manifest.8309bae7ef99174a5a9cc26f489f8a07.js": "/Foods-App/precache-manifest.8309bae7ef99174a5a9cc26f489f8a07.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.56259e06.chunk.css.map": "/Foods-App/static/css/main.56259e06.chunk.css.map",
     "static/js/2.8256e78f.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.8256e78f.chunk.js.LICENSE.txt",
@@ -41,14 +41,14 @@
     "static/media/favouriteHeart.svg": "/Foods-App/static/media/favouriteHeart.e046c3d4.svg",
     "static/media/flourIcon.svg": "/Foods-App/static/media/flourIcon.bca1c835.svg",
     "static/media/foodBag.9af74249.svg": "/Foods-App/static/media/foodBag.9af74249.svg",
-    "static/media/foodIcon.svg": "/Foods-App/static/media/foodIcon.06e5d9b6.svg",
+    "static/media/foodIcon.svg": "/Foods-App/static/media/foodIcon.7addea90.svg",
     "static/media/foodPhoto2.jpg": "/Foods-App/static/media/foodPhoto2.ee15f4ad.jpg",
-    "static/media/foodPlan.455b4a5c.svg": "/Foods-App/static/media/foodPlan.455b4a5c.svg",
+    "static/media/foodPlan.661542fe.svg": "/Foods-App/static/media/foodPlan.661542fe.svg",
     "static/media/foodPlate.png": "/Foods-App/static/media/foodPlate.c659ce78.png",
     "static/media/garlicIcon.svg": "/Foods-App/static/media/garlicIcon.d9664174.svg",
     "static/media/gymIcon.svg": "/Foods-App/static/media/gymIcon.e93e8c95.svg",
     "static/media/hamIcon.svg": "/Foods-App/static/media/hamIcon.5e9efcbb.svg",
-    "static/media/home.99a69a17.svg": "/Foods-App/static/media/home.99a69a17.svg",
+    "static/media/home.15971a28.svg": "/Foods-App/static/media/home.15971a28.svg",
     "static/media/honeyIcon.svg": "/Foods-App/static/media/honeyIcon.da269500.svg",
     "static/media/hotSuaceIcon.svg": "/Foods-App/static/media/hotSuaceIcon.4f51f1f5.svg",
     "static/media/iceIcon.svg": "/Foods-App/static/media/iceIcon.922dab84.svg",
@@ -84,7 +84,7 @@
     "static/media/supperImage.jpg": "/Foods-App/static/media/supperImage.a27c52b2.jpg",
     "static/media/teaCookiesIcon.svg": "/Foods-App/static/media/teaCookiesIcon.d1b3943f.svg",
     "static/media/tomatoIcon.svg": "/Foods-App/static/media/tomatoIcon.d8ea4bd7.svg",
-    "static/media/userIcon.svg": "/Foods-App/static/media/userIcon.72cd1d29.svg",
+    "static/media/userIcon.svg": "/Foods-App/static/media/userIcon.5342fd55.svg",
     "static/media/userImage.dfc0e4d8.svg": "/Foods-App/static/media/userImage.dfc0e4d8.svg",
     "static/media/waterIcon.svg": "/Foods-App/static/media/waterIcon.3c904e29.svg",
     "static/media/whiteCheeseIcon.svg": "/Foods-App/static/media/whiteCheeseIcon.54b7d297.svg"
@@ -93,6 +93,6 @@
     "static/js/runtime-main.c3d6b424.js",
     "static/js/2.8256e78f.chunk.js",
     "static/css/main.56259e06.chunk.css",
-    "static/js/main.bfad7a07.chunk.js"
+    "static/js/main.6eca98cd.chunk.js"
   ]
 }
