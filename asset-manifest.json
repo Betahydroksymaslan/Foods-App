@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Foods-App/static/css/main.56259e06.chunk.css",
-    "main.js": "/Foods-App/static/js/main.6eca98cd.chunk.js",
-    "main.js.map": "/Foods-App/static/js/main.6eca98cd.chunk.js.map",
+    "main.js": "/Foods-App/static/js/main.95d3c72c.chunk.js",
+    "main.js.map": "/Foods-App/static/js/main.95d3c72c.chunk.js.map",
     "runtime-main.js": "/Foods-App/static/js/runtime-main.c3d6b424.js",
     "runtime-main.js.map": "/Foods-App/static/js/runtime-main.c3d6b424.js.map",
     "static/js/2.8256e78f.chunk.js": "/Foods-App/static/js/2.8256e78f.chunk.js",
     "static/js/2.8256e78f.chunk.js.map": "/Foods-App/static/js/2.8256e78f.chunk.js.map",
     "index.html": "/Foods-App/index.html",
-    "precache-manifest.8309bae7ef99174a5a9cc26f489f8a07.js": "/Foods-App/precache-manifest.8309bae7ef99174a5a9cc26f489f8a07.js",
+    "precache-manifest.fd836aaf004bbd961e4fe1dc78029989.js": "/Foods-App/precache-manifest.fd836aaf004bbd961e4fe1dc78029989.js",
     "service-worker.js": "/Foods-App/service-worker.js",
     "static/css/main.56259e06.chunk.css.map": "/Foods-App/static/css/main.56259e06.chunk.css.map",
     "static/js/2.8256e78f.chunk.js.LICENSE.txt": "/Foods-App/static/js/2.8256e78f.chunk.js.LICENSE.txt",
@@ -43,7 +43,7 @@
     "static/media/foodBag.9af74249.svg": "/Foods-App/static/media/foodBag.9af74249.svg",
     "static/media/foodIcon.svg": "/Foods-App/static/media/foodIcon.7addea90.svg",
     "static/media/foodPhoto2.jpg": "/Foods-App/static/media/foodPhoto2.ee15f4ad.jpg",
-    "static/media/foodPlan.661542fe.svg": "/Foods-App/static/media/foodPlan.661542fe.svg",
+    "static/media/foodPlan.c3d41b73.svg": "/Foods-App/static/media/foodPlan.c3d41b73.svg",
     "static/media/foodPlate.png": "/Foods-App/static/media/foodPlate.c659ce78.png",
     "static/media/garlicIcon.svg": "/Foods-App/static/media/garlicIcon.d9664174.svg",
     "static/media/gymIcon.svg": "/Foods-App/static/media/gymIcon.e93e8c95.svg",
@@ -93,6 +93,6 @@
     "static/js/runtime-main.c3d6b424.js",
     "static/js/2.8256e78f.chunk.js",
     "static/css/main.56259e06.chunk.css",
-    "static/js/main.6eca98cd.chunk.js"
+    "static/js/main.95d3c72c.chunk.js"
   ]
 }
