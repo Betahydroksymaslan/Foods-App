@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3540932309011e2c64e24689ea9da5a2",
+    "revision": "2305dccdcc38b0ed6cf42f1db44d37f4",
     "url": "/Foods-App/index.html"
   },
   {
-    "revision": "038a755fed88e39ad43e",
-    "url": "/Foods-App/static/css/main.40520cc4.chunk.css"
+    "revision": "1010f411b32416394648",
+    "url": "/Foods-App/static/css/main.72e0deca.chunk.css"
   },
   {
-    "revision": "20ccdac6edbada405eae",
-    "url": "/Foods-App/static/js/2.3bbaa1c0.chunk.js"
+    "revision": "98b2debd4fc7c0ad1e50",
+    "url": "/Foods-App/static/js/2.f52904b2.chunk.js"
   },
   {
     "revision": "5fb6cfa21f11135c5373554be886ccf0",
-    "url": "/Foods-App/static/js/2.3bbaa1c0.chunk.js.LICENSE.txt"
+    "url": "/Foods-App/static/js/2.f52904b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "038a755fed88e39ad43e",
-    "url": "/Foods-App/static/js/main.7b57842b.chunk.js"
+    "revision": "1010f411b32416394648",
+    "url": "/Foods-App/static/js/main.b9893ad2.chunk.js"
   },
   {
     "revision": "946b9c7205563b46d379",
