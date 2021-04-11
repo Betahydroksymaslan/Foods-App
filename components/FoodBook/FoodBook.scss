@@ -1,0 +1,76 @@
+.FoodBook {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30% 0 50px;
+  visibility: hidden;
+  &__header {
+    margin-bottom: 10%;
+    color: $second-color;
+    font-size: 2.5rem;
+  }
+  &__foodCategoriesBox {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__foodCategory {
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: 7vw;
+    border-radius: 5px;
+    box-shadow: -4px 0 20px -3px rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    position: relative;
+    transition: transform .2s ease;
+    color: white;
+    &:active {
+        transform: scale(.97);
+    }
+    &--tittle-breakfast,
+    &--tittle-dinner,
+    &--tittle-snacks,
+    &--tittle-supper {
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+        background-color: rgba(0, 0, 0, 0.514);
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    &--tittle-breakfast::before {
+      content: "Breakfast";
+    }
+    &--tittle-dinner::before {
+      content: "Dinner";
+    }
+    &--tittle-supper::before {
+      content: "Supper";
+    }
+    &--tittle-snacks::before {
+      content: "Snacks";
+    }
+    &--snacks {
+      width: 150%;
+    }
+    &--supper {
+      width: 100%;
+    }
+    &--breakfast {
+      width: 100%;
+    }
+    &--dinner {
+      width: 140%;
+    }
+  }
+}

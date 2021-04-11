@@ -1,0 +1,133 @@
+.Nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px  rgba(128, 128, 128, 0.384);
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  &__box-expand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  &__list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--expand {
+      justify-content: space-evenly;
+    }
+  }
+  &__expand {
+    display: flex;
+    align-items: center;
+  }
+  &__menu-icons {
+    display: none;
+    color: white;
+    -webkit-tap-highlight-color: transparent;
+    &--expand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 4px;
+      min-width: 50px;
+      height: 100%;
+      color:white;
+    }
+  }
+  &__backIcon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    &--bars {
+      width: 14px;
+      height: 2px;
+      background-color:  rgb(179, 141, 37);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      border-radius: 2px;
+      transform: translateY(-50%);
+      &::before {
+        content: '';
+        width: 25px;
+        height: 2px;
+        background-color:  rgb(179, 141, 37);
+        position: absolute;
+        top: -10px;
+        left: 0;
+        border-radius: 2px;
+      }
+      &::after {
+        content: '';
+        width: 25px;
+        height: 2px;
+        background-color:  rgb(179, 141, 37);
+        position: absolute;
+        top: 10px;
+        left: 0;
+        border-radius: 2px;
+      }
+    }
+  }
+  &__icons {
+    transition: all 1s ease;
+  } 
+  &__user-icon {
+    &--foodPlan,
+    &--home,
+    &--food,
+    &--user {
+      fill: rgb(179, 141, 37);
+    }
+    &--foodPlan {
+      width: 26px;
+    }
+    &--home {
+      width: 38px;
+    }
+    &--food {
+      width: 35px;
+    }
+    &--user {
+      width: 27px;
+    }
+  }
+  &__expand {
+    transition: all 0.3s ease;
+    &--rotate .Nav__backIcon--bars {
+      width: 25px;
+    }
+    &--rotate .Nav__backIcon--bars::before {
+      width: 15px;
+      left: 100%;
+      transform: translateX(-100%);
+    }
+    &--rotate .Nav__backIcon--bars::after {
+      width: 15px;
+      left: 100%;
+      transform: translateX(-100%);
+    }
+  }
+}
+
+.active {
+  .Nav__icons  {
+    fill:  rgb(179, 141, 37);
+  }
+}

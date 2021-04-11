@@ -1,0 +1,246 @@
+.Diet {
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  min-height: 100vh;
+  visibility: hidden;
+  &__headerImage {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0;
+  }
+
+  /* !!!  >>>>>>>>>> HEADER SECTION <<<<<<<<<<<       !!! */
+
+  &__backBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__backIcon {
+    font-size: 1.8rem;
+    color: white;
+  }
+  &__options {
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    z-index: 100;
+  }
+  &__header {
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+    text-shadow: 0 0 10px black;
+  }
+
+  /* !!!  >>>>>>>>>> INFO BOXES <<<<<<<<<<<       !!! */
+
+  &__mainContentWrapper {
+    width: 93%;
+    margin: 100px 0 50px;
+    z-index: 100; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    box-shadow: 0 0 60px 100px rgb(242, 242, 242);
+    border-radius: 10px;
+  }
+
+  &__mainWrapper {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.098); 
+    margin-bottom: 20px;  
+    overflow: hidden;  
+    height: 75px;     
+  }
+
+  &__infoWrapper {
+    display: grid;
+    padding: 0 10px;
+    grid-template: 75px / 7fr 1fr 1fr 1fr 1fr;
+  }
+  &__infoNameBox,
+  &__infoCaloriesBox,
+  &__infoProteinBox,
+  &__infoCarbsBox,
+  &__infoFatBox {
+    height: 35px;
+    width: 35px;
+    margin-left: 3px;
+    font-size: 0.8rem;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    user-select: none;
+  }
+  &__infoNameBox {
+    width: auto;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    justify-self: start;
+    color: $second-color;
+  }
+  &__infoCaloriesBox {
+    background-color: rgba(177, 119, 164, 0.3);
+  }
+  &__infoProteinBox {
+    background-color: rgba(192, 38, 38, 0.3);
+  }
+  &__infoCarbsBox {
+    background-color: rgba(255, 187, 0, 0.3);
+  }
+  &__infoFatBox {
+    background-color: rgba(36, 156, 0, 0.3);
+  }
+  &__addProduct {
+    background-color: rgb(96, 196, 50);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px auto;
+    font-size: 1.7rem;
+    font-weight: 900;
+    user-select: none;
+  }
+
+  /* !!!  >>>>>>>>>> MACRO BOX <<<<<<<<<<<       !!! */
+
+  &__macroWrpper {
+    display: grid;
+    grid-template: 40px / 1fr 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.507);
+    z-index: 100;
+  }
+  &__caloriesBox,
+  &__proteinBox,
+  &__carbsBox,
+  &__fatBox {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding-top: 5px;
+  }
+  &__bar {
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 95%;
+    height: 5px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &__proteinBarDark,
+  &__caloriesBarDark,
+  &__carbsBarDark,
+  &__fatBarDark {
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__caloriesBarDark {
+    background-color: rgb(177, 119, 164);
+    width: 60%;
+  }
+  &__proteinBarDark {
+    background-color: rgb(192, 38, 38);
+    width: 70%;
+  }
+  &__carbsBarDark {
+    background-color: rgb(255, 187, 0);
+    width: 50%;
+  }
+  &__fatBarDark {
+    background-color: rgb(36, 156, 0);
+    width: 55%;
+  }
+  &__caloriesValue,
+  &__proteinValue,
+  &__carbsValue,
+  &__fatValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.623);
+  }
+}
+
+
+.itemBox {
+  color: black;
+  display: grid;
+  margin-bottom: 3px;
+  width: 100%;
+  padding: 5px 10px;
+  background-color:rgba(212, 212, 212, 0.13);
+  grid-template: 1fr 1fr / repeat(8, 1fr);
+}
+.itemName {
+  font-size: 1.3rem;
+  grid-column: 1 / 7;
+}
+.itemCalories {
+  grid-column: 1 / 3;
+  align-self: center;
+  color: rgba(0, 0, 0, 0.37);
+}
+.itemProtein {
+  color: rgb(192, 38, 38);
+  grid-column: 5;
+  align-self: center;
+  justify-self: center;
+}
+.itemCarbs {
+  color: rgb(255, 187, 0);
+  grid-column: 6;
+  align-self: center;
+  justify-self: center;
+}
+.itemFat {
+  color:  rgb(36, 156, 0);
+  grid-column: 7;
+  align-self: center;
+  justify-self: center;
+}
+.itemRemove {
+  grid-column: 8;
+  grid-row: 1 / 3;
+  font-size: 1.3rem;
+  align-self: center;
+  justify-self: end;
+  margin-right: 6px;
+  color: rgba(0, 0, 0, 0.623);
+}

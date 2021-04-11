@@ -1,0 +1,64 @@
+.User {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    &__imageWrapper {
+        width: 50%;
+        margin-top: 10%;
+    }
+    &__email {
+        margin: 10px 0 50px;
+        font-size: 1.3rem;
+    }
+    &__training {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    &__gym-icon {
+        width: 40px;
+    }
+    &__training-text {
+        font-size: 1.4rem;
+        margin-left: 20px;
+    }
+    &__favourite {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 60%;
+        color: white;
+    }
+    &__favourite-icon {
+        width: 40px;
+    }
+    &__addMeal {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 60%;
+        color: white;
+    }
+    &__login-button {
+        width: 65%;
+        margin: 15px 0 50px 0;
+        background-color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 15px 0;
+        border-radius: 30px;
+        box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+        transition: opacity .2s ease;
+        &:active {
+            opacity: .7;
+        }
+        &--logout {
+            color: black;
+        }
+    }
+}
+

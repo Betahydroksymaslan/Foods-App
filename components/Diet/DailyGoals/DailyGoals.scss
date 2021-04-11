@@ -1,0 +1,166 @@
+.DailyGoals {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  display: grid;
+  grid-template: repeat(12, 40px) / repeat(3, 1fr);
+  row-gap: 10px;
+
+  // >>>>>>>>>>>>>>>  NAV AREA <<<<<<<<<<<<<<
+
+  &__navPanel {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    padding: 35px 10px;
+    display: grid;
+    align-content: center;
+    grid-template: 1fr / 1fr 2fr 1fr;
+    font-size: 1.2rem;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.219);
+  }
+  &__navHeader {
+    justify-self: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  &__navSave {
+    justify-self: end;
+    font-size: 1.1rem;
+    padding-right: 10px;
+    color: rgb(95, 167, 226);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    &--disabled {
+      color: rgba(128, 128, 128, 0.171);
+    }
+  }
+  &__backBox {
+    color: rgb(95, 167, 226);
+    justify-self: start;
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  &__header {
+    grid-column: 1 / -1;
+    grid-row: 2 / 5;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.4rem;
+    padding-top: 15px;
+  }
+
+  &__caloriesTxt {
+    grid-column: 1 / 3;
+  }
+  &__caloriesValueBox {
+    grid-column: 3;
+  }
+  &__caloriesValueInput,
+  &__proteinValueInput,
+  &__fatValueInput,
+  &__carbsValueInput,
+  &__proteinPercInput,
+  &__fatPercInput,
+  &__carbsPercInput {
+    width: 70%;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    text-align: right;
+    padding-right: 10px;
+  }
+  &__caloriesTxt,
+  &__proteinTxt,
+  &__fatTxt,
+  &__carbsTxt {
+    font-size: 1.1rem;
+    align-self: center;
+    margin-left: 10px;
+  }
+
+  &__helper {
+    grid-column: 1 / -1;
+    grid-row: 9 / 11;
+    align-self: center;
+    justify-self: center;
+    font-size: 1.3rem;
+    color: rgb(95, 167, 226);
+  }
+
+  // >>>>>>>>>>>>>>>  SUMMARY AREA <<<<<<<<<<<<<<
+
+  &__summaryBox {
+    grid-column: 1 / -1;
+    grid-row: 11 / 13;
+    background-color: rgba(212, 212, 212, 0.13);
+    display: grid;
+    grid-template: 1fr 1fr / repeat(5, 1fr);
+    padding: 5px 0 5px 15px;
+  }
+  &__summaryHeader {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    align-self: end;
+    padding-bottom: 5px;
+  }
+  &__summaryTxt {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.363);
+  }
+  &__summaryPerc {
+    grid-column: 5;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    color: rgb(32, 185, 32);
+    font-size: 1.2rem;
+    &--red {
+      color: rgb(190, 56, 56);
+    }
+  }
+
+  // >>>>>>>>>>>>>>>  SUMMARY AREA <<<<<<<<<<<<<<
+
+  &__confirmBoxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    visibility: hidden;
+  }
+  &__confirmBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(128, 128, 128, 0.349);
+    visibility: hidden;
+  }
+  &__confirmTxt {
+    font-size: 1.1rem;
+  }
+  &__confirmExit {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(95, 167, 226);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+}

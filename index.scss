@@ -1,0 +1,17 @@
+@import './components/reset css/reset';
+@import './components/reset css/variables';
+@import 'components/App/App.scss';
+@import './components/Login/Login.scss';
+@import './components/Navigation/Navigation.scss';
+@import './components/Search/Search.scss';
+@import './components/Home/Home.scss';
+@import './components/FoodBook/FoodBook.scss';
+@import './components/User/User.scss';
+@import './components/FoodBook/FoodCategory/FoodCategory.scss';
+@import './components/FoodBook/MealItem/MealItem.scss';
+@import './components/MealPage/MealsPage.scss';
+@import './components/AddMeal/AddMeal.scss';
+@import './components/FavouriteMeals/FavouriteMeals.scss';
+@import './components/Diet/Diet.scss';
+@import './components/Diet/DailyGoals/DailyGoals.scss';
+@import './components/AddProduct/AddProduct.scss';
